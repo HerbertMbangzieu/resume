@@ -1,5 +1,71 @@
 *{
   font-family:"helvetica";
-  width: 75%;
+}
+
+body{
+  width: 80%;
   margin: 0 auto;
+}
+
+#description h1{
+  color: green;
+  padding: 20px 10px;
+}
+
+#description p{
+  text-align: justify;
+  padding: 10px 0;
+  color: #665;
+}
+
+#description *{
+  border-bottom: 1px solid #ccc;
+}
+
+#contact{
+  display: flex;
+}
+#contact a{
+  margin: 0 10px;
+}
+
+.fa-brands{
+  font-size: 28px;
+}
+
+.fa-square-facebook{
+  color: blue;
+}
+.fa-square-instagram{
+  color: blueviolet;
+}
+
+.fa-tiktok{
+  color: black;
+}
+
+.fa-twitter{
+  color:aqua;
+}
+#contact div{
+  margin: 10px 15px;
+  width: 100%;
+}
+
+.diploma{
+  display: flex;
+}
+.time, .details{
+  padding: 0 20px;
+}
+
+.time .duration{
+  font-weight: 700;
+}
+.time .city{
+  font-style: italic;
+}
+
+.details .school{
+  font-weight: 600;
 }
